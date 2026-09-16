@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="100dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Digite seu peso (kg):"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Digite sua altura (m):"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalcularImc"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Calcular IMC" />
+
+    <TextView
+        android:id="@+id/labelImc"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="Aguardando Resultado" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="157dp" />
+
+    <Button
+        android:id="@+id/btnSwitchToMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Média" />
+
+</LinearLayout>
